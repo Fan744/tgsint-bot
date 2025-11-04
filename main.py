@@ -10,7 +10,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 load_dotenv()
-bot_token = os.environ.get("BOT_TOKEN")
+bot_token = os.environ.get("8313201920:AAH1PfXk6b6sgBPNCT_H5AEMAhZETItO5gg")
 allowed_users = os.environ.get("USERS").split('|')
 
 def error(update, context):
